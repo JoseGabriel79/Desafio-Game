@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:'Immortal';
+    src: url('./Immortal-font/IMMORTAL.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'shadded south';
+    src: url('./shadded-south-font/Shadded\ South\ Personal\ Use.ttf') format('truetype');
+}
+body {
+    background-image: url('054271bf-e95e-408d-8bbe-ed37b9c36790.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+header {
+    position:fixed;
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    height: 100px;
+    gap: 40px;
+    border: 1px solid black;
+    background: linear-gradient(90deg, rgba(14, 0, 207, 0.5) 0%, rgba(9, 9, 121, 0.5) 35%, rgba(0, 212, 255, 0.5) 100%);
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Immortal', sans-serif;
+    justify-content: center;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    background: linear-gradient(90deg, rgba(14, 0, 207, 0.5) 0%, rgba(9, 9, 121, 0.5) 35%, rgba(0, 212, 255, 0.5) 100%);
+    color: black;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 40PX;
+    width: 100%;
+    z-index: 99;
+    
+}
+.text-footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 80%;
+    font-weight: bold;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.img-blue-bird-top {
+    position: relative;
+    top: 25px;
+    width: 100px;
+    height: 100%;
+    z-index: 2;
+}
+.img-blue-bird-bottom {
+    position: relative;
+    bottom: 25px;
+    width: 100px;
+    height: 100%;
+    z-index: 2;
+}
+
+.logo-footer {
+    margin-left: 50px;
+    width: 80px;
+    height: 100px;
+}
+.logo-footer-final {
+    width: 80px;
+    height: 90px;
+}
+footer a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    gap: 15px;
+}
+
+
+.text-content-header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.text-content-header img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(0, 0, 0, 0);
+    border-radius: 10%;
+}
+
+.text-content-header a {
+    display: flex;
+    font-family: 'shadded south', sans-serif;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    gap: 15px;
+    font-weight: 20px;
+    font-size: larger;
+}
+
+.icon-name-sky {
+    width: 120px;
+    height: 90px;
+    margin-top: 20PX;
+}
+
+.main-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconHeader {
+    
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+main{
+    font-family: 'Immortal', sans-serif;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 15px;
+}
+h1, h2, h3 {
+    font-family: 'Immortal', sans-serif;
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 60vh;
+    background-color: rgba(31, 48, 114, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    gap: 8px;
+}
+ul{
+    padding: 15px 15px 0 15px;
+}
+.box1 {
+    width: 50%; 
+}
+.box2{
+    width: 100%;
+}
+.link-game{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.link-game img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+.link-game a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 30%;
+    height: 50px;
+    color: rgba(0, 0, 0, 0.683);
+    gap: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: background-color 0.3s ease;
+
+}
+.link-game a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+span p{
+    font-size: small;
+    color: rgb(125, 124, 124);
+}

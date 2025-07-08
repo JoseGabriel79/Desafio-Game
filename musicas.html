@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Uma pagina sobre um jogo.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="curiosidades.css">
+    <link rel="stylesheet" href="musicas.css">
+    <title>Curiosidades</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <div class="main-icon">
+                <!-- <img class="iconHeader" src="Sky-app-icon-2025-06.webp" alt="Icone do jogo."> -->
+                <img class="icon-name-sky" src="Sky_ Children of the Light-Photoroom.png" alt="Imagem com o nome Sky">
+            </div>
+            <div class="text-content-header">
+                <a href="index.html"><img src="icon-home.jpg" alt="icone casa">
+                    <p>HOME</p>
+                </a>
+                <a href="jogabilidade.html"><img src="icon-jogabilidade.jpg" alt="icone jogabilidade">
+                    <p>JOGABILIDADE</p>
+                </a>
+                <a href="curiosidades.html"><img src="icon-curiosidades.jpg" alt="icone curiosidades">
+                    <p>CURIOSIDADES</p>
+                </a>
+                <a href="musicas.html"><img src="icon-icones.jpg" alt="icones do app">
+                    <p>MUSICAS DO JOGO</p>
+                </a>
+            </div>
+        </header>
+        <main>
+            <div class="box1 box">
+                <h1>Músicas</h1>
+                <!-- 🎵 Música -->
+                <audio id="musica" src=""></audio>
+
+                <!-- Controles -->
+                <div class="controls">
+                    <ul>
+                        <li>
+                            <p>01. Painting</p>
+                            <button class="play" onclick="tocarMusica('01. Painting.mp3', this)">▶️ Play</button>
+                            <button class="pause" onclick="pausarMusica('01. Painting.mp3')">⏸️ Pause</button>
+                        </li>
+                        <li>
+                            <p>02. Opening Breath</p>
+                            <button class="play" onclick="tocarMusica('02. Opening Breath (Launch Edition).mp3', this)">▶️
+                                Play</button>
+                            <button class="pause" onclick="pausarMusica('02. Opening Breath (Launch Edition).mp3')">⏸️
+                                Pause</button>
+                        </li>
+                        <li>
+                            <p>03. Lighting the Way</p>
+                            <button class="play" onclick="tocarMusica('03. Lighting the Way.mp3', this)", >▶️ Play</button>
+                            <button class="pause" onclick="pausarMusica('03. Lighting the Way.mp3')">⏸️ Pause</button>
+                        </li>
+                        <li>
+                            <p>04. Calling Across</p>
+                            <button class="play" onclick="tocarMusica('04. Calling Across.mp3', this)">▶️ Play</button>
+                            <button class="pause" onclick="pausarMusica('04. Calling Across.mp3')">⏸️ Pause</button>
+                        </li>
+                        <li>
+                            <p>05. The Waters Above</p>
+                            <button class="play" onclick="tocarMusica('05. The Waters Above.mp3', this)">▶️ Play</button>
+                            <button class="pause" onclick="pausarMusica('05. The Waters Above.mp3')">⏸️ Pause</button>
+                        </li>
+                        <li>
+                            <p>06. Manta</p>
+                            <button class="play" onclick="tocarMusica('06. Manta.mp3', this)">▶️ Play</button>
+                            <button class="pause" onclick="pausarMusica('06. Manta.mp3')">⏸️ Pause</button>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>07. Rousing Alight</p>
+                            <button class="play" onclick="tocarMusica('07. Rousing Alight.mp3', this)">▶️ Play</button>
+                            <button class="pause" onclick="pausarMusica('07. Rousing Alight.mp3')">⏸️ Pause</button>
+                        </li>
+                        <li>
+                            <p>08. A Portentous Walk</p>
+                            <button class="play" onclick="tocarMusica('08. A Portentous Walk.mp3', this)">▶️ Play</button>
+                            <button class="pause" onclick="pausarMusica('08. A Portentous Walk.mp3')">⏸️ Pause</button>
+                        </li>
+                        <li>
+                            <p>09. Waltzing in the Rain</p>
+                            <button class="play" onclick="tocarMusica('09. Waltzing in the Rain.mp3', this)">▶️ Play</button>
+                            <button class="pause" onclick="pausarMusica('09. Waltzing in the Rain.mp3')">⏸️
+                                Pause</button>
+                        </li>
+                        <li>
+                            <p>10. The Invention</p>
+                            <button class="play" onclick="tocarMusica('10. The Invention.mp3', this)">▶️ Play</button>
+                            <button class="pause" onclick="pausarMusica('10. The Invention.mp3')">⏸️ Pause</button>
+                        </li>
+                        <li>
+                            <p>11. Faded Glories</p>
+                            <button class="play" onclick="tocarMusica('11. Faded Glories.mp3', this)">▶️ Play</button>
+                            <button class="pause" onclick="pausarMusica('11. Faded Glories.mp3')">⏸️ Pause</button>
+                        </li>
+                        <li>
+                            <p>12. Somersault</p>
+                            <button class="play" onclick="tocarMusica('12. Somersault.mp3', this)">▶️ Play</button>
+                            <button class="pause" onclick="pausarMusica('12. Somersault.mp3')">⏸️ Pause</button>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+        </main>
+        <footer>
+            <img class="img-blue-bird-top" src="Blue-bird-story-flourish-top-Photoroom.png" alt="">
+            <div class="footer-content">
+                <img class="logo-footer" src="img-footer-inicio.png" alt="Imagem com o nome Sky">
+                <div class="text-footer-content">
+                    <h2>@Thatgamecompany (TGC)</h2>
+                    <h3>Site by José Gabriel</h3>
+                    <h4>
+                        <a href="https://sky-filhos-da-luz.fandom.com/pt-br/wiki/Sky:_Filhos_da_Luz_Wiki">
+                            Link das referências
+                        </a>
+                    </h4>
+                </div>
+                <img class="logo-footer-final" src="img-final-footer.png" alt="">
+            </div>
+
+            <img class="img-blue-bird-bottom" src="Blue-bird-story-flourish-bottom-Photoroom.png" alt="">
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

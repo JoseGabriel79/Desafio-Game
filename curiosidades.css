@@ -1,0 +1,9 @@
+ol{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+.box1 {
+    width: 75%;
+}

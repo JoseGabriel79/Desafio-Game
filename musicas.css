@@ -1,0 +1,51 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+}
+
+li p {
+    flex: 1;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Botões organizados em colunas */
+button {
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.play {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pause {
+    background-color: #f44336;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.controls{
+    display: flex;
+}
+h1{
+    margin-bottom: 15px;
+}
