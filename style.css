@@ -4,14 +4,17 @@
     border: 0;
     box-sizing: border-box;
 }
+
 @font-face {
-    font-family:'Immortal';
+    font-family: 'Immortal';
     src: url('./Immortal-font/IMMORTAL.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'shadded south';
     src: url('./shadded-south-font/Shadded\ South\ Personal\ Use.ttf') format('truetype');
 }
+
 body {
     background-image: url('054271bf-e95e-408d-8bbe-ed37b9c36790.jpg');
     background-size: cover;
@@ -19,13 +22,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+    color: rgb(160, 155, 155);
 }
 
 header {
-    position:fixed;
+    position: fixed;
     display: flex;
     align-items: center;
-    width: 100%; 
+    width: 100%;
     height: 100px;
     gap: 40px;
     border: 1px solid black;
@@ -45,9 +49,9 @@ footer {
     height: 100px;
     border: 1px solid black;
     background: linear-gradient(90deg, rgba(14, 0, 207, 0.5) 0%, rgba(9, 9, 121, 0.5) 35%, rgba(0, 212, 255, 0.5) 100%);
-    color: black;
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,19 +59,20 @@ footer {
     right: 40PX;
     width: 100%;
     z-index: 99;
-    
+
 }
-.text-footer-content{
+
+.text-footer-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: black;
     font-size: 80%;
     font-weight: bold;
     padding-right: 50px;
     padding-left: 50px;
 }
+
 .img-blue-bird-top {
     position: relative;
     top: 25px;
@@ -75,6 +80,7 @@ footer {
     height: 100%;
     z-index: 2;
 }
+
 .img-blue-bird-bottom {
     position: relative;
     bottom: 25px;
@@ -88,16 +94,21 @@ footer {
     width: 80px;
     height: 100px;
 }
+
 .logo-footer-final {
     width: 80px;
     height: 90px;
 }
+
 footer a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: black;
     gap: 15px;
+    color: black;
+}
+footer a:hover{
+    text-decoration: underline;
 }
 
 
@@ -120,10 +131,13 @@ footer a {
     font-family: 'shadded south', sans-serif;
     align-items: center;
     text-decoration: none;
-    color: black;
     gap: 15px;
     font-weight: 20px;
     font-size: larger;
+    color: gray;
+}
+.text-content-header a:hover{
+    text-decoration: underline;
 }
 
 .icon-name-sky {
@@ -139,12 +153,13 @@ footer a {
 }
 
 .iconHeader {
-    
+
     width: 80px;
     height: 80px;
     border-radius: 100%;
 }
-main{
+
+main {
     font-family: 'Immortal', sans-serif;
     display: flex;
     gap: 10px;
@@ -154,11 +169,16 @@ main{
     width: 100%;
     padding: 15px;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     font-family: 'Immortal', sans-serif;
     text-align: center;
+    color: rgb(0, 0, 0);
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -166,32 +186,43 @@ h1, h2, h3 {
     background-color: rgba(31, 48, 114, 0.5);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    font-size: 15px;
-    color: black;
+    font-size:120% ;
     font-weight: bold;
     gap: 8px;
 }
-ul{
+
+ul {
     padding: 15px 15px 0 15px;
 }
+
 .box1 {
-    width: 50%; 
+    width: 50%;
 }
-.box2{
+
+.box2 {
     width: 100%;
+    
 }
-.link-game{
+
+.link-game {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    margin-top: 25px;
 }
+
+.box h2 {
+    margin-top: 3%;
+}
+
 .link-game img {
     width: 40px;
     height: 40px;
     border-radius: 10px;
-    
+
 }
+
 .link-game a {
     display: flex;
     align-items: center;
@@ -208,10 +239,12 @@ ul{
     transition: background-color 0.3s ease;
 
 }
+
 .link-game a:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
-span p{
+
+span p {
     font-size: small;
     color: rgb(125, 124, 124);
 }
